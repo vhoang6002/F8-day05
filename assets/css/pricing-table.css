@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/Gemini_Generated_Image_s6zf5ys6zf5ys6zf.png);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.btn {
+  border-radius: 999999px;
+  background-color: #bb6bd9;
+  color: white;
+}
+/* ============pricing-table============= */
+/* max w=1366 h=1024 */
+/* ===========header=========== */
+/* header w=1220 h=38 */
+.pricing-table .header {
+  display: flex;
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-table .btn {
+  padding: 12px 38px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+}
+/* =============content=========== */
+/* content w=1050 h784 */
+.pricing-table .content {
+  max-width: 76%;
+  margin: 0 auto;
+  margin-top: 66px;
+}
+.pricing-table .content h2 {
+  color: #231d4f;
+  font-size: 4rem;
+  font-weight: 400;
+  font-style: normal;
+}
+/* info-content */
+.pricing-table .content .info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.pricing-table .content .info {
+  color: #848199;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  max-width: 584px;
+}
+.pricing-table .content .btn-choice {
+  padding-right: 24px;
+  background-color: #fff;
+  border-radius: 99999px;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.39) inset;
+}
+.pricing-table .content .btn {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: normal;
+  padding: 10px 18px;
+  margin-right: 20px;
+}
+.pricing-table .content .no-chose {
+  color: #312d4f;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: normal;
+}

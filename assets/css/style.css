@@ -96,9 +96,9 @@ body {
 .form .btn:hover {
   background-color: #ccc;
 }
-.form .btn:active{
-    color: white;
-    background-color: blue;
+.form .btn:active {
+  color: white;
+  background-color: blue;
 }
 .form .dob {
   margin-left: 4px;
@@ -106,13 +106,13 @@ body {
 .form .Gender {
   font-size: 1.5rem;
 }
-.form input:focus{
+.form input:focus {
   border: 2px solid blue;
 }
-.form input:invalid{
-    border-color:red ;
+.form input:invalid {
+  border-color: red;
 }
-.form .important::after{
-    content: "*";
-    color: red;
+.form .important::after {
+  content: "*";
+  color: red;
 }
