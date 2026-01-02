@@ -80,9 +80,82 @@ a {
   padding: 10px 18px;
   margin-right: 20px;
 }
-.pricing-table .content .no-chose {
+.pricing-table .content .no-choose {
   color: #312d4f;
   font-size: 1.2rem;
   font-weight: 600;
   font-style: normal;
+}
+/* main-content */
+.pricing-table .content .main-content {
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 50%);
+  margin-top: 108px;
+  margin-bottom: 96px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.pricing-table .main-content .plan {
+  padding: 72px 26px;
+  padding-bottom: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 292px;
+}
+.pricing-table .main-content .money {
+  color: #231d4f;
+  font-size: 3.6rem;
+  font-weight: 700;
+  font-style: normal;
+}
+.pricing-table .main-content .time {
+  color: #848199;
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.pricing-table .title-desc {
+  margin-top: 32px;
+  font-weight: 500;
+  font-style: normal;
+}
+.pricing-table .title-desc .title {
+  color: #231d4f;
+  font-size: 2.8rem;
+  margin-bottom: 14px;
+}
+.pricing-table .main-content .desc {
+  color: #848199;
+  font-size: 1.5rem;
+}
+.pricing-table .benefits {
+  margin-top: 20px;
+}
+.pricing-table .benefits .list {
+  display: flex;
+  margin-top: 10px;
+}
+.pricing-table .benefits .benefit-info {
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 10px;
+}
+.pricing-table .main-content .choose-plan {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  background-color: #87849d;
+  margin-bottom: 16px;
+}
+.pricing-table .main-content .start-btn{
+    margin-top: 80px;
+}
+.pricing-table .main-content .pro-btn{
+    margin-top: 50px;
+}
+.pricing-table .main-content .Company-btn{
+    margin-top: 18px;
 }
