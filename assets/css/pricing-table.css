@@ -150,12 +150,18 @@ a {
   background-color: #87849d;
   margin-bottom: 16px;
 }
-.pricing-table .main-content .start-btn{
-    margin-top: 80px;
+.pricing-table .main-content .start-btn {
+  margin-top: 80px;
 }
-.pricing-table .main-content .pro-btn{
-    margin-top: 50px;
+.pricing-table .main-content .pro-btn {
+  margin-top: 50px;
 }
-.pricing-table .main-content .Company-btn{
-    margin-top: 18px;
+.pricing-table .main-content .Company-btn {
+  margin-top: 18px;
+}
+.pricing-table .main-content .plan:nth-child(2) {
+  border: 3px solid green;
+}
+.pricing-table .main-content .plan:hover {
+  box-shadow: 0px 10px 26px 10px rgba(0, 0, 0, 0.4);
 }
