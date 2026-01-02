@@ -159,6 +159,9 @@ a {
 .pricing-table .main-content .Company-btn {
   margin-top: 18px;
 }
+.pricing-table .main-content .choose-plan:hover {
+  background-color: green;
+}
 .pricing-table .main-content .plan:nth-child(2) {
   border: 3px solid green;
 }
