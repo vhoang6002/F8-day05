@@ -132,14 +132,16 @@ a {
 .pricing-table .benefits {
   margin-top: 20px;
 }
-.pricing-table .benefits .list {
-  display: flex;
-  margin-top: 10px;
-}
 .pricing-table .benefits .benefit-info {
   font-weight: 500;
+  display: flex;
   font-style: normal;
-  margin-left: 10px;
+  margin-top: 10px;
+}
+.pricing-table .benefits .benefit-info::before {
+  display: inline-block;
+  content: url(../img/check-circle-1.png);
+  margin-right: 10px;
 }
 .pricing-table .main-content .choose-plan {
   font-size: 1.5rem;
